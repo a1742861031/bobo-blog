@@ -18,7 +18,7 @@ import java.util.List;
  * @Created by bobo
  */
 @Service
-public class BlogCategoryServiceImpl extends ServiceImpl<BlogCategoryMapper, BlogCategory> implements BlogCategoryService {
+public class BlogCategoryServiceImpl  implements BlogCategoryService {
     @Autowired
     private BlogCategoryMapper blogCategoryMapper;
 

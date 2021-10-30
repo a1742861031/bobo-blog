@@ -1,15 +1,15 @@
 package com.bobo.blog.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.bobo.blog.entity.BlogTag;
+import com.bobo.blog.entity.BlogInfo;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * @Description 博客标签
- * @Date 2021/10/28 21:45
+ * @Description 查询blog信息
+ * @Date 2021/10/29 12:31
  * @Created by bobo
  */
 @Mapper
-public interface BlogTagMapper extends BaseMapper<BlogTag> {
+public interface BlogInfoMapper extends BaseMapper<BlogInfo> {
 
 }

@@ -12,17 +12,16 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 //@ControllerAdvice
 public class GlobalExceptionHandler {
-    @ExceptionHandler(Exception.class)
-    @ResponseBody
-    public R error(Exception e) {
-        return R.error().message("服务端异常");
-    }
-
-
-
     @ExceptionHandler(MyException.class)
     @ResponseBody
     public R error(MyException e) {
         return R.error().message(e.getMsg()).code(e.getCode());
+    }
+
+
+    @ExceptionHandler(RuntimeException.class)
+    @ResponseBody
+    public R error(Exception e) {
+        return R.error().message(e.getMessage());
     }
 }

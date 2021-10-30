@@ -36,7 +36,11 @@ public class BlogTag implements Serializable {
      */
     @TableField("tag_name")
     private String tagName;
-
+    /**
+     * 创建时间
+     */
+    @TableField("is_deleted")
+    private int isDeleted;
 
     /**
      * 创建时间

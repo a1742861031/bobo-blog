@@ -4,7 +4,7 @@ server:
 spring:
   datasource:
     name: myBlog
-    url: jdbc:mysql://localhost:3306/my_blog_db?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
+    url: jdbc:mysql://1.117.152.124:3306/my_blog_db?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
     username: root
     password: 123456
     type: com.alibaba.druid.pool.DruidDataSource
@@ -69,4 +69,4 @@ mybatis-plus:
       table-prefix: "tb_"
 
 logging:
-  level.com.site.blog: debug
+  level.com.bobo.blog: debug

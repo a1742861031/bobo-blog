@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de143822-1b6e-4fa8-9cab-88fef0dc0164" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="de143822-1b6e-4fa8-9cab-88fef0dc0164" name="Changes" comment="完成标签管理，分类管理">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/MyBlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/MyBlogApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/common/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/entity/BlogTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/entity/BlogTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/mapper/BlogTagMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/mapper/BlogTagMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/service/impl/BlogCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/service/impl/BlogCategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/BlogCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BlogCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bobo/blog/service/impl/BlogCategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bobo/blog/service/impl/BlogCategoryServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +66,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-site" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.10857763" />
     <property name="project.structure.side.proportion" value="0.7489035" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -123,12 +134,38 @@
       <updated>1635420120085</updated>
       <workItem from="1635420121577" duration="7000" />
       <workItem from="1635420153349" duration="171000" />
-      <workItem from="1635420467492" duration="10392000" />
+      <workItem from="1635420467492" duration="10833000" />
+      <workItem from="1635478395039" duration="901000" />
+      <workItem from="1635479311936" duration="96000" />
+      <workItem from="1635479424411" duration="247000" />
+      <workItem from="1635479683541" duration="13718000" />
+      <workItem from="1635511618868" duration="387000" />
+      <workItem from="1635560192479" duration="11435000" />
+      <workItem from="1635586892051" duration="801000" />
     </task>
+    <task id="LOCAL-00001" summary="完成标签管理，分类管理">
+      <created>1635431465808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635431465808</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -140,6 +177,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成标签管理，分类管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成标签管理，分类管理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -156,6 +198,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="binaryData[1]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
