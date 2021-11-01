@@ -49,4 +49,14 @@ public class CommentController {
         }
         return R.error();
     }
+
+    @PutMapping()
+    @ApiOperation("修改评论内容")
+    public R modifyComment(@RequestBody BlogComment comment) {
+        boolean result = blogCommentService.modifyComment(comment);
+        if (result) {
+            return R.ok();
+        }
+        return R.error();
+    }
 }

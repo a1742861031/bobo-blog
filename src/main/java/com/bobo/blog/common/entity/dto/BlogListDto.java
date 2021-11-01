@@ -1,7 +1,8 @@
 package com.bobo.blog.common.entity.dto;
 
-import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;
+
+import java.util.List;
 
 /**
  * @Description 返回blog列表dto
@@ -35,20 +36,16 @@ public class BlogListDto {
     /**
      * 0-允许评论 1-不允许评论
      */
-    @TableField("enable_comment")
     private Integer enableComment;
 
-    /**
-     * 是否删除 0=否 1=是
-     */
-    private Integer isDeleted;
+
     /**
      * 分类名称
      */
-    private String categoryName;
+    private Integer blogCategoryId;
 
     /**
      * 标签名称
      */
-    private String tagName;
+    private List<Integer> tagIds;
 }

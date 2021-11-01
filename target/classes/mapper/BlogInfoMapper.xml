@@ -3,4 +3,8 @@
 <mapper namespace="com.bobo.blog.mapper.BlogInfoMapper">
 
 
+    <insert id="insertBlog" parameterType="com.bobo.blog.entity.BlogInfo" useGeneratedKeys="true" keyProperty="blogId">
+        insert into tb_blog_info(blog_title, blog_preface, blog_content, blog_category_id, blog_status,enable_comment, create_time, update_time)
+        values (#{blogTitle}, #{blogPreface},#{blogContent}, #{blogCategoryId}, #{blogStatus}, #{enableComment}, now(), now())
+    </insert>
 </mapper>

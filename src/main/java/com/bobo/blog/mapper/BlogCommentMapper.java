@@ -3,6 +3,7 @@ package com.bobo.blog.mapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.bobo.blog.entity.BlogComment;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Select;
 
 /**
  * @Description 博客评论dao层
@@ -11,4 +12,5 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface BlogCommentMapper extends BaseMapper<BlogComment> {
+
 }

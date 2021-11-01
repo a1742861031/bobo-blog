@@ -73,5 +73,6 @@ public class AdminUser implements Serializable {
 
     @TableField("github")
     private String github;
-
+    @TableField("introduce")
+    private String introduce;
 }

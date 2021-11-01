@@ -8,7 +8,7 @@ import lombok.Data;
  * @Created by bobo
  */
 @Data
-public class BlogQuery {
+public class BlogQueryDto {
     Integer categoryId;
     String blogTitle;
 }

@@ -47,4 +47,10 @@ public class BlogCommentServiceImpl implements BlogCommentService {
         int verify = blogCommentMapper.updateById(comment);
         return verify >= 1;
     }
+
+    @Override
+    public boolean modifyComment(BlogComment blogComment) {
+        int update = blogCommentMapper.updateById(blogComment);
+        return update >= 1;
+    }
 }

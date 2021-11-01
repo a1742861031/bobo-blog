@@ -20,4 +20,6 @@ public interface BlogCommentService {
 
     //审核评论
     boolean verifyComment(Integer id);
+    //修改
+    boolean modifyComment(BlogComment blogComment);
 }

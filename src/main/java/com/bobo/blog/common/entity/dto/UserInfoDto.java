@@ -18,4 +18,5 @@ public class UserInfoDto implements Serializable {
     private String qq;
     private String email;
     private String github;
+    private String introduce;
 }
