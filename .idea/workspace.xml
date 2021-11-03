@@ -4,26 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de143822-1b6e-4fa8-9cab-88fef0dc0164" name="Changes" comment="10-30">
+    <list default="true" id="de143822-1b6e-4fa8-9cab-88fef0dc0164" name="Changes" comment="V1版本完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/common/entity/dto/BlogListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/common/entity/dto/BlogListDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/common/entity/dto/BlogQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/common/entity/dto/BlogQueryDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/common/entity/dto/UserInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/common/entity/dto/UserInfoDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/controller/AdminUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/controller/AdminUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/entity/AdminUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/entity/AdminUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/mapper/BlogCommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/mapper/BlogCommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/mapper/BlogInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/mapper/BlogInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/service/AdminUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/service/AdminUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/service/BlogInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/service/BlogInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/service/impl/AdminUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/service/impl/AdminUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/service/impl/BlogInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/service/impl/BlogInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/BlogInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BlogInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bobo/blog/controller/AdminUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bobo/blog/controller/AdminUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bobo/blog/mapper/BlogInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bobo/blog/mapper/BlogInfoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bobo/blog/service/BlogInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bobo/blog/service/BlogInfoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bobo/blog/service/impl/AdminUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bobo/blog/service/impl/AdminUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bobo/blog/service/impl/BlogInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bobo/blog/service/impl/BlogInfoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BlogInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/BlogInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bobo/blog/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bobo/blog/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bobo/blog/common/entity/dto/BlogListDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bobo/blog/common/entity/dto/BlogListDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bobo/blog/common/entity/dto/BlogQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bobo/blog/common/entity/dto/UserInfoDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bobo/blog/common/entity/dto/UserInfoDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bobo/blog/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bobo/blog/config/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bobo/blog/entity/AdminUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bobo/blog/entity/AdminUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bobo/blog/service/AdminUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bobo/blog/service/AdminUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bobo/blog/service/BlogCommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bobo/blog/service/BlogCommentService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +48,11 @@
         <option name="mavenHome" value="D:/Program Files/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="prod" />
+      </list>
     </option>
   </component>
   <component name="ProjectId" id="208J8Eb4VEBK5z9A80hyfnmibg7" />
@@ -151,7 +149,7 @@
       <workItem from="1635586892051" duration="880000" />
       <workItem from="1635670371036" duration="2494000" />
       <workItem from="1635684950315" duration="3606000" />
-      <workItem from="1635734865332" duration="27248000" />
+      <workItem from="1635734865332" duration="29799000" />
     </task>
     <task id="LOCAL-00001" summary="完成标签管理，分类管理">
       <created>1635431465808</created>
@@ -167,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635588506431</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="V1版本完成">
+      <created>1635775072349</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635775072349</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +204,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成标签管理，分类管理" />
     <MESSAGE value="10-30" />
-    <option name="LAST_COMMIT_MESSAGE" value="10-30" />
+    <MESSAGE value="V1版本完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1版本完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

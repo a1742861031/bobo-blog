@@ -2,6 +2,8 @@ server:
   port: 8000
 
 spring:
+  profiles:
+    active: prod
   datasource:
     name: myBlog
     url: jdbc:mysql://1.117.152.124:3306/my_blog_db?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
@@ -51,7 +53,7 @@ spring:
       stat-view-servlet:
         enabled: true
         login-username: admin
-        login-password: z1320291471
+        login-password: 123456
   thymeleaf:
     cache: false
     mode: LEGACYHTML5
